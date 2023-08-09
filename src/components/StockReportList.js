@@ -75,6 +75,7 @@ const StockReportList = () => {
                     )}
                   </Draggable>
                 ))}
+                {provided.placeholder} 
               </tbody>
             </table>
           )}
